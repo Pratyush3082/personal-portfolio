@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f6f8;
+    line-height: 1.6;
+}
+
+/* Main Heading */
+
+h1{
+    text-align: center;
+    color: #0a66c2;
+    font-size: 48px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Section Headings */
+
+h2{
+    color: #0a66c2;
+    border-bottom: 2px solid #0a66c2;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+/* Profile Image */
+
+img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Links */
+
+a{
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: bold;
+}
+
+/* Hide HR */
+
+hr{
+    display: none;
+}
+
+/* Cards */
+
+ul,
+ol,
+p{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+ul:hover,
+ol:hover,
+p:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Buttons */
+
+.btn{
+    display: inline-block;
+    background: #0a66c2;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 10px 10px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #004182;
+    transform: translateY(-3px);
+}
+
+/* Tagline */
+
+.tagline{
+    text-align: center;
+    background: none;
+    box-shadow: none;
+    color: #555;
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+/* Smooth Scroll */
+
+html{
+    scroll-behavior: smooth;
+}
+.dark-mode{
+    background-color:#1a1a1a;
+    color:white;
+}
+
+.dark-mode ul,
+.dark-mode ol,
+.dark-mode p{
+    background:#2b2b2b;
+    color:white;
+}
+
+.dark-mode h1,
+.dark-mode h2{
+    color:#4da6ff;
+}
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.skills span{
+    background:#0a66c2;
+    color:white;
+    padding:10px 18px;
+    border-radius:25px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.skills span:hover{
+    background:#004182;
+    transform:translateY(-3px);
+}
+footer{
+    text-align:center;
+    margin-top:40px;
+    color:#666;
+    font-size:14px;
+    background:none !important;
+    box-shadow:none !important;
+}
